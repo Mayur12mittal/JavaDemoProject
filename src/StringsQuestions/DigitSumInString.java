@@ -1,5 +1,6 @@
 package StringsQuestions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DigitSumInString {
@@ -8,6 +9,7 @@ public class DigitSumInString {
         String s = sc.nextLine();
 
         char[] str = s.toCharArray();
+        System.out.println(Arrays.toString(str));
         int sum = 0;
         for(char c: str){
             if(Character.isDigit(c)){
